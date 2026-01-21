@@ -27,6 +27,7 @@ genera_libri()
 @app.route("/api/libri", methods=["GET"])
 def get_libri():
     return jsonify(libri)
+git add .
 
 if __name__ == "__main__":
     app.run(debug=True)
